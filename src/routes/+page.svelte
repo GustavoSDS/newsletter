@@ -44,11 +44,13 @@
 		background-repeat: no-repeat;
 	}
 	@media (min-width: 1000px) {
+		main {
+			margin: auto;
+		}
 		main.signup {
 			flex-direction: row-reverse;
 			width: 928px;
 			height: 641px;
-			margin: auto;
 			padding: 24px 24px 24px 40px;
 			column-gap: 64px;
 			border-radius: 34px;
@@ -56,7 +58,6 @@
 		main.message {
 			width: 504px;
 			height: 520px;
-			margin: auto;
 			border-radius: 32px;
 		}
 		div.hero {
@@ -65,6 +66,13 @@
 			background-position: center;
 			border-radius: 14px;
 		}
-
+	}
+	@media (min-width: 1440px) {
+		main.signup {
+			margin: 219px auto 0;
+		}
+		main.message {
+			margin: 280px auto 0;
+		}
 	}
 </style>
