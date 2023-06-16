@@ -63,7 +63,7 @@
 		div.hero {
 			width: 50%;
 			height: 100%;
-			background-position: center;
+			background-position: -264px 0px;
 			border-radius: 14px;
 		}
 	}

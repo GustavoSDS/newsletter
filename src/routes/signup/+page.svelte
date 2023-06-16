@@ -40,5 +40,9 @@
 		section {
 			justify-content: space-around;
 		}
+		h1 {
+			font-size: 58px;
+			letter-spacing: -.01em;
+		}	
 	}
 </style>
