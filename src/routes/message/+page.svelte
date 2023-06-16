@@ -28,7 +28,7 @@
 			<h1>Thanks for subscribing!</h1>
 			<p>
 				A confirmation email has been sent to <strong>{valueEmail}</strong>. Please open it and
-				click the button inside to confirm your subscription. Dismiss message
+				click the button inside to confirm your subscription.
 			</p>
 		</div>
 
@@ -80,6 +80,9 @@
 		img,
 		a {
 			margin: 0;
+		}
+		h1 {
+			margin: 14px 0;
 		}
 	}
 </style>
